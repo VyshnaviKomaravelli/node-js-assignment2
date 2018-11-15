@@ -1,0 +1,30 @@
+CALLBACK HELL
+Callback hell is the eventual state of any complex callback oriented asynchronous program where the management of callbacks gets so hard that the performance benefits of callbacks notwithstanding, your code becomes extremely hard to understand, reason about and maintain.
+
+When we have many actions of the code to be executed one after the another in javascript then we place their execution order as callbacks nested to each other.
+This results in a hectic code with many callback functions depend on other.This situation is said as CALLBACK HELL
+
+Eg:
+loadScript('1.js', function(error, script) {
+
+  if (error) {
+    handleError(error);
+  } else {
+    // ...
+    loadScript('2.js', function(error, script) {
+      if (error) {
+        handleError(error);
+      } else {
+        // ...
+        loadScript('3.js', function(error, script) {
+          if (error) {
+            handleError(error);
+          } else {
+            // ...continue after all scripts are loaded (*)
+          }
+        });
+
+      }
+    })
+  }
+});
