@@ -1,0 +1,39 @@
+NPM:
+npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
+PACKAGES OF NPM:
+to install packages:
+npm install<package-name>
+1. express
+Fast, unopinionated, minimalist web framework for node.
+
+express.js is a Node.js web application server framework, designed for building single-page, multi-page, and hybrid web applications. It is the standard server framework for node.js.
+
+2. body-parser
+Node.js body parsing middleware.
+
+It Parses incoming request bodies in a middleware before your handlers, available under the req.body property.
+
+3. lodash
+Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc. Lodash’s modular methods are great for:
+4. babel-core
+Babel is the most popular JavaScript transpiler.
+Babel’s original name was slightly more descriptive — 6to5. This was because, originally, Babel converted ES6 code to ES5 code. Now, Babel does a lot more. It’ll convert ES6 to ES5, JSX to JavaScript, and Flow to JavaScript.
+
+5. async
+Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js, it can also be used directly in the browser.
+6.grunt- The JavaScript Task Runner 
+7.request -Simplified HTTP request client. 
+8.gulp- The streaming build system  
+9.mocha -simple, flexible, fun test framework 
+10.mongoose -Mongoose MongoDB ODM 
+11.underscore -JavaScript's functional programming helper library. 
+12.hapi- HTTP Server framework 
+13.commander -the complete solution for node.js command-line programs\
+14.jade-Jade template engine - 102
+15.browserify- browser-side require() the node way 
+16.redis- Redis client library
+17.colors-get colors in your node.js console like what 
+18.moment -Parse, manipulate, and display dates.
+19.coffee-script: Unfancy JavaScript 
+20.connect -High performance middleware framework 
+
